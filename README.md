@@ -17,12 +17,18 @@ modify components that you may not have access to.
     - [Example: Replace objects with their JSON.stringify representation](#example-replace-objects-with-their-jsonstringify-representation)
     - [Example: Replace divs with spans](#example-replace-divs-with-spans)
 
+---
+
+This project is an up-to-date reincarnation of https://github.com/mshafir/react-element-replace. The fork supports contemporary React versions (16.0.0-18.x) and contains bug fixes.
+
+---
+
 ## Install
 
-```bash
-yarn add react-element-replace
+```sh
+yarn add @gapotchenko/react-element-replace
 # or
-npm install react-element-replace
+npm install @gapotchenko/react-element-replace
 ```
 
 ## What is this for
@@ -114,7 +120,7 @@ class TreeElementCounter implements Visitor<number, null> {
 Now we can use this `Visitor` as so:
 
 ```tsx
-import { traverseElementTree } from "react-element-replace";
+import { traverseElementTree } from "@gapotchenko/react-element-replace";
 
 const elements = (
   <div>
@@ -179,7 +185,7 @@ Where the ReplacerProps type is
 ### Example: Replace numbers with their increment
 
 ```tsx
-import { Replacer } from 'react-element-replace';
+import { Replacer } from '@gapotchenko/react-element-replace';
 
 <Replacer
     match={x => typeof x === 'number'}
