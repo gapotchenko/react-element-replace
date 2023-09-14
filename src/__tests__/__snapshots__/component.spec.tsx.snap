@@ -6,7 +6,7 @@ exports[`component replace 1`] = `
    
   <div
     style={
-      Object {
+      {
         "border": "1px solid black",
         "display": "inline-block",
       }
@@ -20,7 +20,7 @@ exports[`component replace 1`] = `
        
       <div
         style={
-          Object {
+          {
             "border": "1px solid black",
             "display": "inline-block",
           }
