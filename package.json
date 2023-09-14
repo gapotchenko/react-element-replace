@@ -1,6 +1,6 @@
 {
     "name": "react-element-replace",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "React utility methods that transforms element subtrees, replacing elements following the provided rules.",
     "main": "build/index.js",
     "module": "build/index.es.js",
@@ -10,7 +10,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:mshafir/react-element-replace.git"
+        "url": "git@github.com:gapotchenko/react-element-replace.git"
     },
     "keywords": [
         "react",
@@ -20,14 +20,14 @@
         "replace"
     ],
     "author": {
-        "name": "Michael Shafir",
-        "email": "michael.shafir@gmail.com"
+        "name": "Gapotchenko",
+        "url": "https://www.gapotchenko.com/"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/mshafir/react-element-replace/issues"
+        "url": "https://github.com/gapotchenko/react-element-replace/issues"
     },
-    "homepage": "https://github.com/mshafir/react-element-replace",
+    "homepage": "https://github.com/gapotchenko/react-element-replace",
     "peerDependencies": {
         "react": "^16.0.0",
         "react-dom": "^16.0.0"
