@@ -14,7 +14,7 @@ modify components that you may not have access to.
   - [rebuildElement](#rebuildelement)
   - [replaceInTree / Replacer](#replaceintree--replacer)
     - [Example: Replace numbers with their increment](#example-replace-numbers-with-their-increment)
-    - [Example: Replace objects with their JSON.stringify representation](#example-replace-objects-with-their-jsonstringify-representation)
+    - [Example: Replace objects with their `JSON.stringify` representation](#example-replace-objects-with-their-jsonstringify-representation)
     - [Example: Replace divs with spans](#example-replace-divs-with-spans)
 
 ---
@@ -39,7 +39,7 @@ React element tree and do something.
 
 Here is a small and non-exhaustive list of things you could do with this library:
 
-- render all objects in a subtree with JSON.stringify instead of throwing an error
+- render all objects in a subtree with `JSON.stringify` instead of throwing an error
 - replace all promises with a loading component that shows a loader until promise resolution
 - inject classNames into elements or components that meet a specific criteria, in a way that can apply / switch a theme
 - remove components that are slow for testing
@@ -206,7 +206,7 @@ import { Replacer } from '@gapotchenko/react-element-replace';
 </div>
 ```
 
-### Example: Replace objects with their JSON.stringify representation
+### Example: Replace objects with their `JSON.stringify` representation
 
 ```tsx
 <Replacer
