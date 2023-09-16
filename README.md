@@ -14,7 +14,7 @@ modify components that you may not have access to.
   - [rebuildElement](#rebuildelement)
   - [replaceInTree / Replacer](#replaceintree--replacer)
     - [Example: Replace numbers with their increment](#example-replace-numbers-with-their-increment)
-    - [Example: Replace objects with their `JSON.stringify` representation](#example-replace-objects-with-their-jsonstringify-representation)
+    - [Example: Replace objects with their JSON representation](#example-replace-objects-with-their-json-representation)
     - [Example: Replace divs with spans](#example-replace-divs-with-spans)
 
 ---
@@ -206,7 +206,7 @@ import { Replacer } from '@gapotchenko/react-element-replace';
 </div>
 ```
 
-### Example: Replace objects with their `JSON.stringify` representation
+### Example: Replace objects with their JSON representation
 
 ```tsx
 <Replacer
