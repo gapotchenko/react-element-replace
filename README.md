@@ -19,7 +19,7 @@ modify components that you may not have access to.
 
 ---
 
-This project is an up-to-date reincarnation of https://github.com/mshafir/react-element-replace. The project supports contemporary React versions (16.0.0-18.x) and contains bug fixes.
+This project is an up-to-date reincarnation of https://github.com/mshafir/react-element-replace. It supports contemporary React versions (16.0.0-18.x) and contains bug fixes.
 
 ---
 
