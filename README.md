@@ -33,7 +33,7 @@ npm install @gapotchenko/react-element-replace
 
 ## What is this for
 
-This library is a generic ste of utility functions that can
+This library is a generic suite of utility functions that can
 be used for any situation where you want to recurse through a
 React element tree and do something.
 
