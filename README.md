@@ -15,7 +15,7 @@ modify components that you may not have access to.
   - [replaceInTree / Replacer](#replaceintree--replacer)
     - [Example: Replace numbers with their increment](#example-replace-numbers-with-their-increment)
     - [Example: Replace objects with their JSON representation](#example-replace-objects-with-their-json-representation)
-    - [Example: Replace divs with spans](#example-replace-divs-with-spans)
+    - [Example: Replace `div` elements with `span`](#example-replace-div-elements-with-span)
 
 ---
 
@@ -221,7 +221,7 @@ import { Replacer } from '@gapotchenko/react-element-replace';
 // Note: normally this throws an error
 ```
 
-### Example: Replace divs with spans
+### Example: Replace `div` elements with `span`
 
 ```tsx
 <Replacer
