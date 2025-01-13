@@ -10,7 +10,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:gapotchenko/react-element-replace.git"
+        "url": "git+ssh://git@github.com/gapotchenko/react-element-replace.git"
     },
     "keywords": [
         "react",
