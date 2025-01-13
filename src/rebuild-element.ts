@@ -11,7 +11,9 @@ export function rebuildElement(
   }
   if (Array.isArray(children)) {
     children = children.map((e, i) =>
-      (isValidElement(e) && typeof e.props === "object") ? cloneElement(e, { ...e.props, key: i }) : e
+      isValidElement(e) && typeof e.props === "object"
+        ? cloneElement(e, { ...e.props, key: i })
+        : e
     );
   }
   if (!parent || Array.isArray(parent)) {
